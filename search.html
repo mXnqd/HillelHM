@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Пошук автомобіля</h1>
+    <form>
+      <label for="body_type">Тип кузова:</label>
+      <select id="body_type" name="body_type">
+        <option value="">--Виберіть тип кузова--</option>
+        <option value="coupe">Купе</option>
+        <option value="sedan">Седан</option>
+        <option value="suv">Позашляховик</option>
+        <option value="hatchback">Хетчбек</option>
+        <option value="wagon">Універсал</option>
+      </select>
+      <br /><br />
+
+      <label for="make">Марка авто:</label>
+      <input type="text" id="make" name="make" />
+      <br /><br />
+
+      <label for="country">Країна виробник:</label>
+      <select id="country" name="country">
+        <option value="">--Виберіть країну виробник--</option>
+        <option value="japan">Японія</option>
+        <option value="usa">США</option>
+        <option value="germany">Німеччина</option>
+        <option value="korea">Корея</option>
+      </select>
+      <br /><br />
+
+      <label for="price_min">Ціна від:</label>
+      <input
+        type="number"
+        id="price_min"
+        name="price_min"
+        step="1000"
+        min="0"
+      />
+      <br /><br />
+
+      <label for="price_max">Ціна до:</label>
+      <input
+        type="number"
+        id="price_max"
+        name="price_max"
+        step="1000"
+        min="0"
+      />
+      <br /><br />
+
+      <label for="year_min">Рік випуску від:</label>
+      <input
+        type="number"
+        id="year_min"
+        name="year_min"
+        min="1900"
+        max="2023"
+      />
+      <br /><br />
+
+      <label for="year_max">Рік випуску до:</label>
+      <input
+        type="number"
+        id="year_max"
+        name="year_max"
+        min="1900"
+        max="2023"
+      />
+      <br /><br />
+
+      <label for="condition">Стан:</label><br />
+      <input type="checkbox" id="condition1" name="condition" value="damaged" />
+      <label for="condition1">Битий</label><br />
+      <input
+        type="checkbox"
+        id="condition2"
+        name="condition"
+        value="under_credit"
+      />
+      <label for="condition2">У кредиті</label><br />
+      <input
+        type="checkbox"
+        id="condition3"
+        name="condition"
+        value="uncleared"
+      />
+      <label for="condition3">Нерозмитнений</label><br />
+      <label for="transmission_type">Тип коробки передач:</label>
+      <select id="transmission_type" name="transmission_type">
+        <option value="">--Виберіть тип коробки передач--</option>
+        <option value="manual">Механічна</option>
+        <option value="automatic">Автоматична</option>
+        <option value="cv">Безступінчаста</option>
+      </select>
+      <br /><br />
+
+      <label for="color">Колір:</label>
+      <select id="color" name="color">
+        <option value="">--Виберіть колір--</option>
+        <option value="black">Чорний</option>
+        <option value="white">Білий</option>
+        <option value="red">Червоний</option>
+        <option value="blue">Синій</option>
+        <option value="gray">Сірий</option>
+      </select>
+      <br /><br />
+      <label for="comfort">Выберiть комплектацiЮ:</label>
+    <select id="comfort" name="comfort">
+      <option value="Комфорт">Комфорт</option>
+      <option value="Люк">Люк</option>
+      <option value="Шкіряний салон">Шкіряний салон</option>
+      <option value="тощо">и т.д.</option>
+    </form>
+  </body>
+</html>
