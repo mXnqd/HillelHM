@@ -28,7 +28,7 @@ header .menu a {
 }
 
 main {
-  background-color: #ddd;
+  background-color: #ffffff;
   padding: 20px;
   border-radius: 10px;
 }
@@ -37,35 +37,41 @@ main .intro {
   font-size: 72px;
   text-align: center;
   margin-bottom: 50px;
-  background-color: red;
+  background-color: rgb(243, 51, 51);
+  height: 250px;
   color: white;
   padding: 10px;
-  border-radius: 10px;
 }
 
 main .about {
-  background-color: rgb(250, 250, 250);
+  background-color: rgb(255, 255, 255);
   padding: 10px;
   border-radius: 10px;
-  color: white;
+  color: rgb(255, 255, 255);
   margin-bottom: 20px;
 }
 
 main .subtitle {
   font-size: 24px;
   margin-bottom: 10px;
-  background-color: rgb(73, 192, 58);
+  background-color: rgb(255, 255, 255);
   padding: 10px;
   border-radius: 10px;
-  color: white;
+  color: rgb(255, 0, 0);
+  padding-left: 300px;
 }
 
 main .content {
-  background-color: #ccc;
+  background-color: #e6dede;
   padding: 10px;
   border-radius: 10px;
   margin-bottom: 20px;
-  color: white;
+  color: rgb(0, 0, 0);
+  width: 100%;
+  display: flex;
+  height: 400px;
+  margin: 0 auto;
+  max-width: 1250px;
 }
 
 main .features {
@@ -74,32 +80,59 @@ main .features {
 }
 
 main .feature {
-  width: 30%;
-  background-color: #777;
+  width: 25%;
+  height: 300px;
+  background-color: #ffffff;
   padding: 10px;
   border-radius: 10px;
   margin-bottom: 20px;
   color: white;
   text-align: center;
+  border: solid 1px grey;
 }
 
 main .feature img {
-  width: 100px;
+  width: 250px;
   height: 100px;
-  border-radius: 50%;
+
   margin-bottom: 10px;
 }
 
 main .feature .title {
-  font-size: 20px;
+  font-size: 25px;
   font-weight: bold;
   margin-bottom: 5px;
+  color: black;
 }
 
 main .feature .text {
+  color: black;
   font-size: 14px;
 }
 
 .footer {
   text-align: center;
+  height: 50px;
+  width: 100%;
+  background-color: bisque;
+}
+.sub {
+  color: red;
+  font-weight: bold;
+}
+.img4 {
+  flex: 1;
+  display: flex;
+}
+.text1 {
+  width: 50%;
+}
+.rm1 {
+  color: red;
+}
+.rm2 {
+  color: red;
+}
+.rm3 {
+  color: red;
 }
