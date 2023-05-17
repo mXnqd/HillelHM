@@ -13,10 +13,20 @@ header {
 }
 
 header .logo {
-  font-weight: bold;
+  position: absolute;
+  width: 181px;
+  height: 40px;
+  font-family: "Ubuntu", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 40px;
+  color: #62bfad;
 }
 
 header .menu {
+  font-family: "Ubuntu", sans-serif;
+  padding-left: 250px;
   display: flex;
   align-items: center;
 }
@@ -34,16 +44,32 @@ main {
 }
 
 main .intro {
-  font-size: 72px;
+  padding-top: 150px;
+  padding-left: 625px;
+  position: absolute;
+  width: 738px;
+  height: 100px;
+  font-family: "Ubuntu", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 58px;
+  display: flex;
+  align-items: center;
   text-align: center;
-  margin-bottom: 50px;
-  background-color: rgb(243, 51, 51);
-  height: 250px;
-  color: white;
-  padding: 10px;
+  text-transform: uppercase;
+
+  color: #ffffff;
+}
+main .background {
+  position: absolute;
+  width: 100%;
+  height: 400px;
+  background: #d52047;
 }
 
 main .about {
+  margin-top: 400px;
   background-color: rgb(255, 255, 255);
   padding: 10px;
   border-radius: 10px;
@@ -52,7 +78,7 @@ main .about {
 }
 
 main .subtitle {
-  font-size: 24px;
+  font-size: 35px;
   margin-bottom: 10px;
   background-color: rgb(255, 255, 255);
   padding: 10px;
@@ -80,15 +106,19 @@ main .features {
 }
 
 main .feature {
-  width: 25%;
-  height: 300px;
-  background-color: #ffffff;
+  width: 322px;
+  height: 409px;
+
   padding: 10px;
-  border-radius: 10px;
+  margin-left: 300px;
   margin-bottom: 20px;
   color: white;
   text-align: center;
-  border: solid 1px grey;
+  background: #ffffff;
+  border: 2px solid #e5e5e5;
+  border-radius: 8px;
+  align-items: center;
+  box-sizing: border-box;
 }
 
 main .feature img {
@@ -99,10 +129,13 @@ main .feature img {
 }
 
 main .feature .title {
+  margin-left: 24px;
+  text-align: left;
   font-size: 25px;
   font-weight: bold;
   margin-bottom: 5px;
   color: black;
+  font-family: "Lato";
 }
 
 main .feature .text {
@@ -111,8 +144,9 @@ main .feature .text {
 }
 
 .footer {
+  padding-top: 35px;
   text-align: center;
-  height: 50px;
+  height: 75px;
   width: 100%;
   background-color: bisque;
 }
@@ -128,11 +162,20 @@ main .feature .text {
   width: 50%;
 }
 .rm1 {
+  display: flex;
   color: red;
 }
 .rm2 {
   color: red;
+  display: flex;
 }
 .rm3 {
   color: red;
+  display: flex;
+}
+.bg1 {
+  width: 100%;
+  height: 475px;
+
+  background: #eff8f6;
 }
