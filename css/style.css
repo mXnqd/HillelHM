@@ -5,7 +5,7 @@ body {
 }
 
 header {
-  background-color: #f2f2f2;
+  background-color: #f9f7e8;
   padding: 20px;
   display: flex;
   justify-content: space-between;
@@ -13,20 +13,19 @@ header {
 }
 
 header .logo {
-  position: absolute;
-  width: 181px;
-  height: 40px;
-  font-family: "Ubuntu", sans-serif;
+  font-family: "Courgette";
   font-style: normal;
   font-weight: 400;
   font-size: 32px;
   line-height: 40px;
   color: #62bfad;
+  padding-left: 100px;
 }
 
 header .menu {
+  padding-right: 1750px;
   font-family: "Ubuntu", sans-serif;
-  padding-left: 250px;
+  padding-left: 50px;
   display: flex;
   align-items: center;
 }
@@ -45,11 +44,11 @@ main {
 
 main .intro {
   padding-top: 150px;
-  padding-left: 625px;
+  padding-left: 525px;
   position: absolute;
   width: 738px;
-  height: 100px;
-  font-family: "Ubuntu", sans-serif;
+
+  font-family: "Limelight";
   font-style: normal;
   font-weight: 400;
   font-size: 48px;
@@ -80,7 +79,7 @@ main .about {
 main .subtitle {
   font-size: 35px;
   margin-bottom: 10px;
-  background-color: rgb(255, 255, 255);
+  background-color: #eff8f6;
   padding: 10px;
   border-radius: 10px;
   color: rgb(255, 0, 0);
@@ -106,11 +105,12 @@ main .features {
 }
 
 main .feature {
-  width: 322px;
-  height: 409px;
+  width: 300px;
+  height: 400px;
+  margin-right: 50px;
 
   padding: 10px;
-  margin-left: 300px;
+
   margin-bottom: 20px;
   color: white;
   text-align: center;
@@ -122,8 +122,8 @@ main .feature {
 }
 
 main .feature img {
-  width: 250px;
-  height: 100px;
+  width: 220px;
+  height: 125px;
 
   margin-bottom: 10px;
 }
@@ -148,18 +148,22 @@ main .feature .text {
   text-align: center;
   height: 75px;
   width: 100%;
-  background-color: bisque;
+  background-color: #f9f7e8;
 }
 .sub {
-  color: red;
+  color: rgb(0, 0, 0);
   font-weight: bold;
+  width: 200px;
 }
 .img4 {
   flex: 1;
   display: flex;
 }
 .text1 {
-  width: 50%;
+  padding-top: 50px;
+  width: 700px;
+  height: 50%;
+  padding-right: 5px;
 }
 .rm1 {
   display: flex;
@@ -175,7 +179,30 @@ main .feature .text {
 }
 .bg1 {
   width: 100%;
-  height: 475px;
+  height: 500px;
 
   background: #eff8f6;
+}
+main .subtitle1 {
+  font-size: 35px;
+
+  background-color: #ffffff;
+  padding: 10px;
+  border-radius: 10px;
+  color: rgb(255, 0, 0);
+  padding-left: 400px;
+}
+.container {
+  padding-left: 450px;
+  display: flex;
+}
+.icon {
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+}
+.container1 {
+  padding-top: 10px;
+  display: flex;
+  padding-left: 900px;
 }

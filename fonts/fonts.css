@@ -1,0 +1,12 @@
+@font-face {
+  font-family: "Courgette";
+  src: url(/Courgette-Regular.woff) format(woff);
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Limelight";
+  src: url(/Limelight-Regular.woff) format(woff);
+  font-weight: 700;
+  font-style: normal;
+}
