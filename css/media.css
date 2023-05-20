@@ -25,11 +25,9 @@
     display: flex;
   }
   .img-wrap img {
-    width: 100%;
     height: auto;
-    position: relative;
+    width: auto;
   }
   .wrap2 {
-    padding-top: 425px;
   }
 }

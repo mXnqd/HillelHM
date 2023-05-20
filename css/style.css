@@ -9,7 +9,7 @@
   background: #f3f5f6;
   border-radius: 10px;
   padding-top: 64px;
-  padding-bottom: 64px;
+  padding-bottom: 120px;
   display: flex;
   justify-content: flex-end;
   margin: 50px auto;
@@ -21,6 +21,7 @@
 .wrap2 {
   display: flex;
   max-width: 600px;
+  max-height: 370px;
 }
 .text-wrap {
   position: relative;
@@ -35,8 +36,8 @@
   position: relative;
 }
 .wrap1 {
-  height: 300px;
   margin-right: 25px;
+  position: relative;
 }
 .p1 {
   margin-top: 20px;
@@ -50,4 +51,22 @@
 }
 .h2 {
   font-size: 25px;
+}
+.play {
+  padding-right: 25px;
+  position: absolute;
+  padding-top: 385px;
+}
+.container {
+  position: relative;
+}
+
+.container img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding-top: 375px;
+}
+.arrowr {
+  padding-right: 50px;
 }
