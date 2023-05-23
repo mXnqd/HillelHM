@@ -12,7 +12,7 @@
     z-index: 2;
     color: white;
     padding-top: 75px;
-    padding-left: 65px;
+    padding-left: 150px;
   }
   .wrap2 img + img {
     display: initial;
@@ -29,5 +29,13 @@
     width: auto;
   }
   .wrap2 {
+  }
+  .wrap1 {
+    padding-left: 85px;
+  }
+  .arrowr {
+  }
+  .play {
+    padding-left: 85px;
   }
 }
