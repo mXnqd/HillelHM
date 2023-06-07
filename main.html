@@ -11,8 +11,37 @@
     />
   </head>
   <body>
-    <header>
+    <header class="header">
       <div class="container">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#">Navbar</a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarNavAltMarkup"
+              aria-controls="navbarNavAltMarkup"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+              <div class="navbar-nav">
+                <a class="nav-link active" aria-current="page" href="main.html"
+                  >Home</a
+                >
+                <a class="nav-link" href="blog.html">Blog</a>
+                <a class="nav-link" href="contact.html">Contacts</a>
+              </div>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <main class="py-50">
+      <div class="container bg-body-secondary">
         <h1 class="text-center">Placeholder jumborton</h1>
         <p class="w-75-md w-50 mx-auto">
           Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellat vel
@@ -23,12 +52,10 @@
           <button class="btn btn-primary" type="button">Call to action</button>
         </div>
       </div>
-    </header>
-    <main class="py-50">
       <section class="py-5">
         <div class="container">
           <div class="row">
-            <div class="col-md-6">
+            <div class="col-md-6 bg-body-secondary">
               <h1>Responsive left-aligned hero with image</h1>
               <p>
                 Lorem ipsum dolor sit amet consectetur, adipisicing elit. Et
@@ -50,8 +77,6 @@
           </div>
         </div>
       </section>
-    </main>
-    <footer>
       <section>
         <h1 class="text-center">Column with icons</h1>
         <div class="card-group">
@@ -104,6 +129,15 @@
           </div>
         </div>
       </section>
+    </main>
+    <footer class="footer py-5 bg-body-secondary">
+      <div class="container">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit
+          fugiat, autem aliquam veritatis quas illum quos asperiores dicta sed
+          omnis!
+        </p>
+      </div>
     </footer>
     <script src="assets/bootstrap-5.3.0/js/bootstrap.min.js"></script>
   </body>
