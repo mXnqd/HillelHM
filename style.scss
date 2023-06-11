@@ -32,27 +32,20 @@ ul.navbar {
 
 .container{
     background-color: #EEEFF1;
-    
-    
-    
-
 }
 
 div.info{
   text-align: center;
   justify-content: center;
   margin-top: 50px;
+
   h1 {
-    
     padding-left: -25px;
     margin-bottom: 10px;
   }
   p {
-    padding-top: 15px;
-    
+    padding-top: 15px; 
     margin-bottom: 20px;
-    
-    
   }
   button{
     padding: 10px 20px;
@@ -60,11 +53,10 @@ div.info{
     border: none;
     width: 150px;
     background-color: #34547A;
-    color: #EEEFF1;
-    
+    color: #EEEFF1; 
   }
-
 }
+
 
 .container1 {
   background-color: #FFFFFF;
@@ -73,12 +65,10 @@ div.info{
   justify-content: center;
   height: 220px;
   padding-top: 150px;
-
   p {
     padding-top: 20px;
     max-width: 450px;
   }
-
 }
 .container2{
       background-color:  #34547A;
@@ -143,5 +133,77 @@ footer{
    padding-left: 405px;
    
 
+}
+@media screen and (max-width: 767px) {
+  
+  .container {
+    max-width: 100%;
+    padding: 10px;
+  }
+
+  
+  h1, h2, h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+
+  
+  p {
+    font-size: 14px;
+    line-height: 1.4;
+  }
+
+  
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  .container2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+
+  
+  
+  .container {
+    max-width: 90%;
+    padding: 20px;
+  }
+  .container2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-wrap: nowrap;
+    overflow-x: hidden;
+  }
+
+  
+  h1, h2, h3 {
+    font-size: 24px;
+    margin-bottom: 15px;
+  }
+
+  
+  p {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+
+  
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  .icon {
+    flex: 0 0 auto;
+  }
+
+}
 }
 
