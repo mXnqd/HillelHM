@@ -1,7 +1,36 @@
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
+.tabs-section {
+  margin-bottom: 1rem;
+}
 
-+
+.nav-tabs {
+  display: flex;
+  list-style: none;
+  padding: 0;
+}
+
+.nav-link {
+  cursor: pointer;
+  padding: 0.5rem 1rem;
+  border: 1px solid transparent;
+  border-top-left-radius: 0.25rem;
+  border-top-right-radius: 0.25rem;
+}
+
+.nav-link.active {
+  border-color: #dee2e6 #dee2e6 #fff;
+  background-color: #fff;
+}
+
+.tab-content .tab-pane {
+  display: none;
+  padding: 1rem;
+}
+
+.tab-content .tab-pane.active {
+  display: block;
+}
