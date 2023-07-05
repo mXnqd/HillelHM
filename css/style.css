@@ -1,7 +1,13 @@
-*{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+@import url("./basic.css");
+
+:root {
+  --temer-color: #000;
 }
 
-+
+.wrapper {
+  border: 1px solid;
+}
+
+#timerRestS {
+  color: var(--timer-color);
+}
